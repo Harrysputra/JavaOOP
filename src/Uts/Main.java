@@ -25,13 +25,13 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.printf("Masukan Kata : ");
+        System.out.printf("Masukan memek : ");
         String input = scanner.nextLine();
 
         if (isPalindrome(input)) {
-            System.out.println("Input adalah palindrom.");
+            System.out.println("Input adalah memek.");
         } else {
-            System.out.println("Input bukan palindrom.");
+            System.out.println("Input bukan memek.");
         }
 
         scanner.close();
